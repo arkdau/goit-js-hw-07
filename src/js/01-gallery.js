@@ -4,7 +4,7 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 let instance = null;
 const list = document.querySelector('.gallery');
-const markup = galleryItems.map((item) => `<li class="gallery__item"><a  class="gallery__link" href=${item.original}><img  class="gallery__image"  src=${item.preview} data-source=${item.original} alt=${item.description} width="480"  height=auto></a></li>`);
+const markup = galleryItems.map((item) => `<li class="gallery__item"><a  class="gallery__link" href=${item.original}><img  class="gallery__image"  src=${item.preview} data-source=${item.original} alt="${item.description}" width="480"  height=auto></a></li>`);
 
 list.insertAdjacentHTML('beforeend', markup);
 list.addEventListener('click', (event) => {
