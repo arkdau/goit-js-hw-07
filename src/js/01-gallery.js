@@ -1,5 +1,5 @@
 import { galleryItems } from './gallery-items.js';
-// import * as basicLightbox from 'basiclightbox.js';
+// import * as basicLightbox from '../basiclightbox.js';
 
 // Change code below this line
 let instance = null;
